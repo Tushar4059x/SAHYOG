@@ -1,5 +1,5 @@
 import React from 'react';
-import sahyoglogo from './assets/sahyog-logo.svg'
+import sahyoglogo from "./sahyoglogo"
 import { Typography, Button, Fab } from "@mui/material";
 
 

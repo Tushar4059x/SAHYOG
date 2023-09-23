@@ -1,6 +1,6 @@
 import React from 'react';
-import landing from './landing';
-import AppBar from './navbar';
+import landing from './components/landing';
+import AppBar from './components/navbar/navbar';
 function App() {
 
 
@@ -12,7 +12,7 @@ function App() {
     }}>
 
         <landing></landing>
-
+ 
    </div>
   )
 }
