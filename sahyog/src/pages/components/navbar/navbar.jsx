@@ -1,7 +1,6 @@
 import React from 'react';
-import sahyoglogo from './assets/sahyog-logo.svg'
-import { Typography, Button, Fab } from "@mui/material";
-import navbar from '../../../components/navbar/navbar';
+import sahyoglogo from './sahyoglogo'
+import { Fab } from "@mui/material";
 
 
 function navbar() {
