@@ -6,10 +6,7 @@
     justify-content: space-evenly;
   }
   
-  .imgtable {
-  height: auto;
-  }
-
+  
   .sahyog1 img {
     height: 30rem;
   }
@@ -61,3 +58,93 @@
     height: 100vh;
   }
   
+  
+  .sahyog3{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    /* justify-content: space-around; */
+    gap: 5rem;
+    background: #fff0bc;
+  }
+  
+  .sahyog3 h2{
+    position: relative;
+    margin-top: 5rem;
+    font-size:6rem;
+    font-family: "";
+  }
+  
+  .sahyog3 .images{
+    display: flex;
+    justify-content: space-around;
+    gap:1rem;
+  }
+  .sahyog3 .images div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sahyog3 .images img{
+    width: 100%;
+  }
+  
+  .sahyog3 .images div a{
+    background: #fff;
+    text-decoration: none;
+    width: 10rem;
+    height: 1.7rem;
+    text-align: center;
+    border-radius: 1rem;
+    margin-top:1rem;
+    font-size: 1.3rem;
+    font-weight: 900;
+    text-transform:uppercase;
+  }
+  
+  .sahyog4{
+    background: #333;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .sahyog4 .infos{
+    display: flex;
+  }
+  
+  .form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .sahyog4 .form input{
+    color: white;
+    height: 3rem;
+    background: transparent; 
+    border-right: none;
+    border-top: none;
+    border-left: none;
+  }
+  
+  #three textarea{
+    background: transparent;
+    border: none;
+  }
+  
+  #one{
+    display: flex;
+    gap: 3rem;
+  }
+  
+  #four input{
+    background-color: blue;
+    border-radius: 2rem;
+    width:10rem;
+    font-weight: bolder;
+    height: 2rem;
+    text-align: center;
+  }

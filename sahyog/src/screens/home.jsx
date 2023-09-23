@@ -9,8 +9,8 @@ export default function Home() {
     <div>
       <Navbar></Navbar>
       <div className="sahyog1">
-        <div className="imgtable">
-          <img  src={imgtable} alt="qwerty" />
+        <div>
+          <img src="fwd/Rectangle4.png" alt="" />
         </div>
         <div className="text">
           <h1>Sahyog</h1>
@@ -55,15 +55,74 @@ export default function Home() {
         </div>
       </div>
       <div className="sahyog3">
-        <h2>Upcoming Events</h2>
         <div>
-          <img src="" alt="" />
+          <h2>Upcoming Events</h2>
         </div>
-        <div>
-          <img src="" alt="" />
+        <div className="images">
+          <div>
+            <img src="/fwd/Rectangle 11.png" alt="" />
+            <a href="">Join</a>
+          </div>
+          <div>
+            <img src="/fwd/Rectangle 15.png" alt="" />
+            <a href="">Join</a>
+          </div>
+          <div>
+            <img src="/fwd/Rectangle 16.png" alt="" />
+            <a href="">Join</a>
+          </div>
         </div>
+      </div>
+      <div className="sahyog4">
         <div>
-          <img src="" alt="" />
+          <h2>Get In Touch</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, <br />
+            tenetur veniam saepe id dolore recusandae ipsam odio libero <br />
+            distinctio.3
+          </p>
+          <div className="infos">
+            <div>
+              <img src="" alt="phonekalogo" />
+            </div>
+            <div>
+              <h3>Phone</h3>
+              <p>+00 110 111 000</p>
+            </div>
+          </div>
+          <div className="infos">
+            <div>
+              <img src="" alt="mailkalogo" />
+            </div>
+            <div>
+              <h3>Email</h3>
+              <p>name.tutorial@gmail.com</p>
+            </div>
+          </div>
+          <div className="infos">
+            <div>
+              <img src="" alt="phonekalogo" />
+            </div>
+            <div>
+              <h3>Phone</h3>
+              <p>X Street , Y Road , San Fransisco</p>
+            </div>
+          </div>
+        </div>
+        <div className="form">
+          <div id="one">
+            <input type="text" id="name" placeholder="Your Name"/>
+            <input type="text" id="mail" placeholder="Email"/>
+          </div>
+          <div id="two">
+            <input type="text" id="subject" placeholder="Subject"/>
+          </div>
+          <div id="three">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Say Something"></textarea>
+          </div>
+          <div id="four">
+            <input type="submit" value='Send Message' />
+          </div>
         </div>
       </div>
     </div>
