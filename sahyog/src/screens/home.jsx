@@ -2,6 +2,10 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import { Link } from "react-router-dom";
 import imgtable from '../img-1.png'
+import Collaborate from '../collaboration.svg'
+import chatbot from '../chatbot.svg'
+import plagrism from '../plagrism.svg'
+import repository from '../repository.svg'
 import "./styles/home.css";
 
 export default function Home() {
@@ -10,7 +14,7 @@ export default function Home() {
       <Navbar></Navbar>
       <div className="sahyog1">
         <div>
-          <img src="fwd/Rectangle4.png" alt="" />
+          <img src={imgtable} alt="" />
         </div>
         <div className="text">
           <h1>Sahyog</h1>
@@ -23,7 +27,7 @@ export default function Home() {
       </div>
       <div className="sahyog2">
         <div className="fluid">
-          <img src="/fwd/Live collaboration-cuate 1.png" alt="" />
+          <img src={Collaborate} alt="" />
           <h3>Collaboration</h3>
           <p>
             Integration with file-sharing services <br />
@@ -31,14 +35,14 @@ export default function Home() {
           </p>
         </div>
         <div className="fluid">
-          <img src="./fwd/Projections-cuate 1.png" alt="" />
+          <img src={repository} alt="qwerty" />
           <h3>Repository/Database</h3>
           <p>
             There is a respository/database to <br /> taken up by universities.
           </p>
         </div>
         <div className="fluid">
-          <img src="./fwd/Personal files-bro 1.png" alt="" />
+          <img src={plagrism} alt="qwerty" />
           <h3>Plagiarism Check</h3>
           <p>
             Plagiarism check to help in <br /> maintaining academic and <br />{" "}
@@ -46,7 +50,7 @@ export default function Home() {
           </p>
         </div>
         <div className="fluid">
-          <img src="./fwd/Chat bot-cuate 1.png" alt="" />
+          <img src={chatbot} alt="qwerty" />
           <h3>Chatbot</h3>
           <p>
             Enables text-based interactions, <br /> enhancing customer support
