@@ -1,19 +1,76 @@
-import React from 'react'
+import React from 'react';
+import sahyoglogo from './assets/sahyog-logo.svg'
+import { Typography, Button, Fab } from "@mui/material";
+import navbar from '../../../components/navbar/navbar';
 
-export default function Navbar() {
+
+function navbar() {
   return (
-    <div className='navBar'>
-        <img src={logo} ></img>
-        <p className='hero-text'>SAHYOG</p>
-        <input type='text' placeholder='Search Prjects, universities, events'></input>
-        <div className='nav-buttons'>
-          <button id='HOME'></button>
-          <button id='MY-TASK'></button>
-          <button id='EVENTS'></button>
-          <button id='PROJECT'></button>
-          <div id='vertical-ruler'></div>
-          <button id='profile'></button>
+    <div style={{
+      display: "flex",
+      justifyContent: "space-between",
+      backgroundColor : "#010536"
+    }}>
+      <div style={{
+        display: "flex",
+        alignItems: "center"
+      }}>
+        <img src={sahyoglogo} alt="nothing" height={80} />
+        <div style={{
+          marginLeft: 10,
+          fontSize: 20,
+          fontWeight: 600,
+          color: 'white'
+        }}>
+          SAHYOG
         </div>
+      </div>
+
+      <div style={{
+        marginTop : 25
+      }} >
+        <Fab variant="extended" size="small" color="primary" 
+        style={{marginRight : 30,
+                color : 'black',
+                backgroundColor: 'white'}}>
+          Home
+        </Fab>
+        <Fab variant="extended" size="small" color="primary"
+        style={{marginRight : 30,
+          color : 'black',
+          backgroundColor: 'white'}}>
+        MyTask
+        </Fab>
+        
+        <Fab variant="extended" size="small" color="primary"
+        style={{marginRight : 30,
+          color : 'black',
+          backgroundColor: 'white'}}>
+        Events
+        </Fab>
+        
+        <Fab variant="extended" size="small" color="primary"
+        style={{marginRight : 80,
+          color : 'black',
+          backgroundColor: 'white'}}>
+        Projects
+        </Fab>
+        
+        <Fab variant="extended" size="small" color="primary"
+        style={{marginRight : 30,
+          color : 'black',
+          backgroundColor: 'white'}}>
+        SignUp
+        </Fab>
+        <Fab variant="extended" size="small" color="primary"
+        style={{marginRight : 80,
+          color : 'black',
+          backgroundColor: 'white'}}>
+        LogIn
+        </Fab>
+      </div>
     </div>
-  )
+  );
 }
+
+export default navbar;
