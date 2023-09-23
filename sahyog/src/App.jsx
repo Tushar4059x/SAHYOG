@@ -1,13 +1,16 @@
-import React from 'react';
-import Landing from './pages/landing';
-function App() {
+import React, { Component } from 'react';
+import logo from './logo.svg';
+import './App.css';
+import Home from './screens/Home';
+import { BrowserRouter as Router , Routes , Route } from 'react-router-dom';
 
-
-  return (
-    <div>
-      <Landing />
-   </div>
-  )
+class App extends Component {
+  render() {
+    return (
+      <Home></Home>
+    );
+  }
 }
 
-export default App
+export default App;
+ 
