@@ -6,7 +6,10 @@
     justify-content: space-evenly;
   }
   
-  
+  .imgtable {
+  height: auto;
+  }
+
   .sahyog1 img {
     height: 30rem;
   }

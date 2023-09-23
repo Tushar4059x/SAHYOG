@@ -10,7 +10,7 @@ export default function Home() {
       <Navbar></Navbar>
       <div className="sahyog1">
         <div className="imgtable">
-          <img  src={imgtable} alt="" />
+          <img  src={imgtable} alt="qwerty" />
         </div>
         <div className="text">
           <h1>Sahyog</h1>
