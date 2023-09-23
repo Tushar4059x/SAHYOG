@@ -1,11 +1,6 @@
-import React from 'react';
-import sahyoglogo from './assets/sahyog-logo.svg'
-import { Typography, Button, Fab } from "@mui/material";
-import logo from '
-import './navbar.css'
+import React from 'react'
 
-
-function navBar() {
+export default function Navbar() {
   return (
     <div className='navBar'>
         <img src={logo} ></img>
@@ -18,9 +13,7 @@ function navBar() {
           <button id='PROJECT'></button>
           <div id='vertical-ruler'></div>
           <button id='profile'></button>
-
         </div>
     </div>
   )
-
-export default AppBar;
+}
