@@ -1,0 +1,60 @@
+.sahyog1 {
+    height: calc(100vh - 5rem);
+    display: flex;
+    background-color: #fff0bc;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  
+  .sahyog1 img {
+    height: 30rem;
+  }
+  
+  .sahyog1 .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background: white; */
+  }
+  
+  .sahyog1 h1 {
+    text-transform: uppercase;
+    font-family: "";
+    font-weight: 900;
+    font-size: 8rem;
+    margin-left: -2rem;
+  }
+  
+  .sahyog1 p {
+  
+    font-family: "";
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+  }
+  
+  .sahyog2 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  .sahyog2 .fluid{
+    width: 100%;
+    text-align: center;
+  }
+  
+  .fluid h3{
+    font-size:2rem;
+  }
+  
+  .fluid p{
+    font-size: 1.3rem;
+    font-family: "";
+    letter-spacing:0.15rem;
+  }
+  
+  .sahyog3 {
+    height: 100vh;
+  }
+  
