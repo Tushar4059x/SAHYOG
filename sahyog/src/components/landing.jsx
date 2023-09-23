@@ -3,9 +3,7 @@ import AppBar from "./navbar";
 function landing() {
     return (
         <div>
-        <AppBar>
-            
-        </AppBar>
+        <AppBar />
         </div>
     )
 }
