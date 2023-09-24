@@ -39,7 +39,7 @@ function navbar() {
         style={{marginRight : 30,
           color : 'black',
           backgroundColor: 'white'}}>
-        MyTask
+        Project
         </Fab>
         
         <Fab variant="extended" size="small" color="primary"
@@ -53,20 +53,7 @@ function navbar() {
         style={{marginRight : 80,
           color : 'black',
           backgroundColor: 'white'}}>
-        Projects
-        </Fab>
-        
-        <Fab variant="extended" size="small" color="primary"
-        style={{marginRight : 30,
-          color : 'black',
-          backgroundColor: 'white'}}>
-        SignUp
-        </Fab>
-        <Fab variant="extended" size="small" color="primary"
-        style={{marginRight : 80,
-          color : 'black',
-          backgroundColor: 'white'}}>
-        LogIn
+        Contact
         </Fab>
       </div>
     </div>
