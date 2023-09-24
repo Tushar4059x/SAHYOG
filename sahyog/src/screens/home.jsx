@@ -10,8 +10,8 @@ import "./styles/home.css";
 import joinfirst from '../rectangle 11.svg'
 import joinsecond from '../rectangle 15.svg'
 import jointhird from '../rectangle 16.svg'
-// import InstagramIcon from '@mui/icons-material/Instagram';
-import PhoneIcon from '@mui/icons-material/Phone';
+
+
 export default function Home() {
   return (
     <div>
@@ -91,27 +91,21 @@ export default function Home() {
             distinctio.3
           </p>
           <div className="infos">
-            <div>
-              <img src={PhoneIcon} alt="phonekalogo" />
-            </div>
+            
             <div>
               <h3>Phone</h3>
               <p>+00 110 111 000</p>
             </div>
           </div>
           <div className="infos">
-            <div>
-              <img src="" alt="mailkalogo" />
-            </div>
+            
             <div>
               <h3>Email</h3>
               <p>name.tutorial@gmail.com</p>
             </div>
           </div>
           <div className="infos">
-            <div>
-              <img src="" alt="phonekalogo" />
-            </div>
+           
             <div>
               <h3>Phone</h3>
               <p>X Street , Y Road , San Fransisco</p>

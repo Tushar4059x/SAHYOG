@@ -55,6 +55,18 @@ function navbar() {
           backgroundColor: 'white'}}>
         Contact
         </Fab>
+        
+        <Fab variant="extended" size="small" color="primary"
+        style={{marginRight : 30,
+          color : 'black',
+          backgroundColor: 'white'}}>
+        SignUp
+        </Fab>
+        <Fab href='../screens/login.jsx' variant="extended" size="small" color="primary"
+        style={{marginRight : 80,
+          color : 'black',
+          backgroundColor: 'white'}}>
+          </Fab>
       </div>
     </div>
   );
