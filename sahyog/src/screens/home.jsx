@@ -1,13 +1,17 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import { Link } from "react-router-dom";
-import imgtable from '../img-1.png'
+import imgtable from '../rectangle 4.svg'
 import Collaborate from '../collaboration.svg'
 import chatbot from '../chatbot.svg'
 import plagrism from '../plagrism.svg'
 import repository from '../repository.svg'
 import "./styles/home.css";
-
+import joinfirst from '../rectangle 11.svg'
+import joinsecond from '../rectangle 15.svg'
+import jointhird from '../rectangle 16.svg'
+// import InstagramIcon from '@mui/icons-material/Instagram';
+import PhoneIcon from '@mui/icons-material/Phone';
 export default function Home() {
   return (
     <div>
@@ -18,6 +22,7 @@ export default function Home() {
         </div>
         <div className="text">
           <h1>Sahyog</h1>
+
           <p>
             A user -friendly dashboard enabling project proposal <br />
             submission and seamless collaboration <br />
@@ -64,16 +69,16 @@ export default function Home() {
         </div>
         <div className="images">
           <div>
-            <img src="/fwd/Rectangle 11.png" alt="" />
-            <a href="">Join</a>
+            <img src={joinfirst} alt=""  />
+            <a href="" className="join">Join</a>
           </div>
           <div>
-            <img src="/fwd/Rectangle 15.png" alt="" />
-            <a href="">Join</a>
+            <img src={joinsecond} alt="" />
+            <a href="" className="join">Join</a>
           </div>
           <div>
-            <img src="/fwd/Rectangle 16.png" alt="" />
-            <a href="">Join</a>
+            <img src={jointhird} alt="" />
+            <a href="" className="join">Join</a>
           </div>
         </div>
       </div>
@@ -87,7 +92,7 @@ export default function Home() {
           </p>
           <div className="infos">
             <div>
-              <img src="" alt="phonekalogo" />
+              <img src={PhoneIcon} alt="phonekalogo" />
             </div>
             <div>
               <h3>Phone</h3>
@@ -113,6 +118,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+
         <div className="form">
           <div id="one">
             <input type="text" id="name" placeholder="Your Name"/>
@@ -129,6 +135,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+
     </div>
   );
 }

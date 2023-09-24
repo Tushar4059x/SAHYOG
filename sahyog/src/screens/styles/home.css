@@ -8,7 +8,7 @@
   
   
   .sahyog1 img {
-    height: 30rem;
+    height: 32rem;
   }
   
   .sahyog1 .text {
@@ -17,20 +17,24 @@
     justify-content: center;
     /* background: white; */
   }
-  
+
   .sahyog1 h1 {
     text-transform: uppercase;
     font-family: "";
+
     font-weight: 900;
-    font-size: 8rem;
-    margin-left: -2rem;
+    font-size: 6rem;
+    margin-left: -17rem;
   }
   
   .sahyog1 p {
   
     font-family: "";
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     letter-spacing: 0.1rem;
+    margin-left: -15rem;
+    margin-bottom: 8rem;
+    margin-top: -2rem;
   }
   
   .sahyog2 {
@@ -70,15 +74,19 @@
   
   .sahyog3 h2{
     position: relative;
-    margin-top: 5rem;
+    margin-top: 4rem;
     font-size:6rem;
     font-family: "";
   }
   
+
   .sahyog3 .images{
     display: flex;
     justify-content: space-around;
     gap:1rem;
+    margin-top: -6rem;
+    margin-bottom: 3rem;
+
   }
   .sahyog3 .images div{
     display: flex;

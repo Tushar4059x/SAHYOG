@@ -17,9 +17,10 @@ function navbar() {
         <img src={sahyoglogo} alt="nothing" height={80} />
         <div style={{
           marginLeft: 10,
-          fontSize: 20,
-          fontWeight: 600,
-          color: 'white'
+          fontSize: 30,
+          fontWeight: 400,
+          color: 'white',
+          fontFamily : "Montserrat"
         }}>
           SAHYOG
         </div>
