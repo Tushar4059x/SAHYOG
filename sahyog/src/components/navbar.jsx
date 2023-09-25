@@ -1,9 +1,9 @@
 import React from 'react';
 import sahyoglogo from '../sahyog-logo.svg'
-import { Typography, Button, Fab } from "@mui/material";
+import {  Fab } from "@mui/material";
 
 
-function navbar() {
+function Navbar() {
   return (
     <div style={{
       display: "flex",
@@ -72,4 +72,4 @@ function navbar() {
   );
 }
 
-export default navbar;
+export default Navbar;

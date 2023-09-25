@@ -1,11 +1,11 @@
 import React from 'react'
-import navbar from '../components/Navbar'
+import Navbar from '../components/Navbar'
 
 
-export default function login() {
+export default function Login() {
   return (
     <div>
-      <navbar>fhebfi</navbar>
+      <Navbar></Navbar>
     </div>
   )
 }
