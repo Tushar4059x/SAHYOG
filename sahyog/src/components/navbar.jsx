@@ -1,9 +1,13 @@
 import React from 'react';
-import sahyoglogo from '../sahyog-logo.svg'
-import {  Fab } from "@mui/material";
-
+import sahyoglogo from '../sahyog-logo.svg';
+import { Fab } from "@mui/material";
+import Login from '../screens/login';
+import { useNavigate } from 'react-router-dom';
 
 function Navbar() {
+
+  const navigate = useNavigate();
+
   return (
     <div style={{
       display: "flex",
@@ -62,14 +66,17 @@ function Navbar() {
           backgroundColor: 'white'}}>
         SignUp
         </Fab>
-        <Fab href='../screens/login.jsx' variant="extended" size="small" color="primary"
-        style={{marginRight : 80,
+        <Fab
+        onClick={() => {
+          navigate("/screens/login.jsx");
+          }}style={{marginRight : 80,
           color : 'black',
           backgroundColor: 'white'}}>
+            SignIn
           </Fab>
       </div>
     </div>
   );
 }
 
-export default Navbar;
+export default Navbar
